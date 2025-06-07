@@ -1,0 +1,86 @@
+Index: Intermediate/ProjectFiles/UECommon.props
+===================================================================
+diff --git a/Intermediate/ProjectFiles/UECommon.props b/Intermediate/ProjectFiles/UECommon.props
+deleted file mode 100644
+--- a/Intermediate/ProjectFiles/UECommon.props	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ /dev/null	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
+@@ -1,38 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+-  <PropertyGroup Label="Globals">
+-    <Keyword>MakeFileProj</Keyword>
+-    <PlatformToolset>v143</PlatformToolset>
+-    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+-    <VCProjectVersion>17.0</VCProjectVersion>
+-    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+-    <TargetRuntime>Native</TargetRuntime>
+-  </PropertyGroup>
+-  <PropertyGroup Label="Configuration">
+-    <ConfigurationType>Makefile</ConfigurationType>
+-    <PlatformToolset>v143</PlatformToolset>
+-  </PropertyGroup>
+-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+-  <PropertyGroup>
+-    <BuildBatchScript>"/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/Build.bat"</BuildBatchScript>
+-    <RebuildBatchScript>"/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/Rebuild.bat"</RebuildBatchScript>
+-    <CleanBatchScript>"/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/Clean.bat"</CleanBatchScript>
+-    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+-    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+-    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+-    <NMakeOutput>Invalid Output</NMakeOutput>
+-    <OutDir>/Users/Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Unused/</OutDir>
+-    <IntDir>/Users/Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Unused/</IntDir>
+-    <IncludePath />
+-    <ReferencePath />
+-    <LibraryPath />
+-    <LibraryWPath />
+-    <SourcePath />
+-    <ExcludePath />
+-    <DefaultSystemIncludePaths />
+-  </PropertyGroup>
+-  <ImportGroup Label="PropertySheets">
+-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+-  </ImportGroup>
+-</Project>
+Index: .idea/discord.xml
+===================================================================
+diff --git a/.idea/discord.xml b/.idea/discord.xml
+new file mode 100644
+--- /dev/null	(date 1749292482383)
++++ b/.idea/discord.xml	(date 1749292482383)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DiscordProjectSettings">
++    <option name="show" value="ASK" />
++    <option name="description" value="" />
++    <option name="applicationTheme" value="default" />
++    <option name="iconsTheme" value="default" />
++    <option name="button1Title" value="" />
++    <option name="button1Url" value="" />
++    <option name="button2Title" value="" />
++    <option name="button2Url" value="" />
++    <option name="customApplicationId" value="" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/editor.xml
+===================================================================
+diff --git a/.idea/editor.xml b/.idea/editor.xml
+new file mode 100644
+--- /dev/null	(date 1749297547641)
++++ b/.idea/editor.xml	(date 1749297547641)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="BackendCodeEditorSettings">
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMayBeConst/@EntryIndexedValue" value="HINT" type="string" />
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexedValue" value="SUGGESTION" type="string" />
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexedValue" value="ERROR" type="string" />
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppLocalVariableMayBeConst/@EntryIndexRemoved" />
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexRemoved" />
++    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexRemoved" />
++  </component>
++</project>
+\ No newline at end of file

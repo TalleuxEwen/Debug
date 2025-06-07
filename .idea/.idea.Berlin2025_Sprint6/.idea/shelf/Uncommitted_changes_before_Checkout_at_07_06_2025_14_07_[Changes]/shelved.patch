@@ -1,0 +1,173 @@
+Index: Config/DefaultGame.ini
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\n[/Script/EngineSettings.GeneralProjectSettings]\r\nProjectID=4952377B4276D31DFCE72AB6318F0E93\r\n\r\n[/Script/AkAudio.AkSettings]\r\nMaxSimultaneousReverbVolumes=4\r\nWwiseProjectPath=(FilePath=\"Debug_WwiseProject/Debug_WwiseProject.wproj\")\r\nRootOutputPath=(Path=\"../Debug_WwiseProject/GeneratedSoundBanks\")\r\nWwiseStagingDirectory=(Path=\"WwiseAudio\")\r\nbSoundBanksTransfered=True\r\nbAssetsMigrated=True\r\nbProjectMigrated=True\r\nDefaultOcclusionCollisionChannel=ECC_Visibility\r\nDefaultFitToGeometryCollisionChannel=ECC_WorldStatic\r\nAkGeometryMap=()\r\nDefaultAcousticTexture=None\r\nDefaultTransmissionLoss=0.000000\r\nGeometrySurfacePropertiesTable=/Game/WwiseAudio/DefaultGeometrySurfacePropertiesTable.DefaultGeometrySurfacePropertiesTable\r\nGlobalDecayAbsorption=0.500000\r\nDefaultReverbAuxBus=None\r\nEnvironmentDecayAuxBusMap=()\r\nReverbAssignmentTable=/Game/WwiseAudio/DefaultReverbAssignmentTable.DefaultReverbAssignmentTable\r\nHFDampingName=\r\nDecayEstimateName=\r\nTimeToFirstReflectionName=\r\nHFDampingRTPC=None\r\nDecayEstimateRTPC=None\r\nTimeToFirstReflectionRTPC=None\r\nAudioInputEvent=None\r\nSplitSwitchContainerMedia=False\r\nSplitMediaPerFolder=False\r\nUseEventBasedPackaging=False\r\nUnrealCultureToWwiseCulture=((\"en\", \"English(US)\"))\r\nDefaultAssetCreationPath=/Game/WwiseAudio\r\nInitBank=/Game/WwiseAudio/InitBank.InitBank\r\nAudioRouting=Custom\r\nbWwiseSoundEngineEnabled=True\r\nbWwiseAudioLinkEnabled=False\r\nbAkAudioMixerEnabled=False\r\nDefaultListenerScalingFactor=1.000000\r\nMigratedEnableMultiCoreRendering=True\r\nFixupRedirectorsDuringMigration=False\r\n\r\n[/Script/AkAudio.AkMacInitializationSettings]\r\nCommonSettings=(SampleRate=48000,MaximumNumberOfMemoryPools=256,MaximumNumberOfPositioningPaths=255,CommandQueueSize=262144,SamplesPerFrame=512,MainOutputSettings=(AudioDeviceShareSet=\"\",DeviceID=0,PanningRule=Speakers,ChannelConfigType=Anonymous,ChannelMask=0,NumberOfChannels=0),StreamingLookAheadRatio=1.000000,NumberOfRefillsInVoice=4,SpatialAudioSettings=(MaxSoundPropagationDepth=8,MovementThreshold=25.000000,NumberOfPrimaryRays=35,ReflectionOrder=2,MaxDiffractionPaths=8,MaxGlobalReflectionPaths=0,DiffractionOrder=4,MaxEmitterRoomAuxSends=3,DiffractionOnReflectionsOrder=2,MaxDiffractionAngleDegrees=180.000000,MaximumPathLength=100000.000000,CPULimitPercentage=0.000000,SmoothingConstantMs=0.000000,LoadBalancingSpread=1,EnableGeometricDiffractionAndTransmission=True,CalcEmitterVirtualPosition=True,TransmissionOperation=Max),MemoryArenaSettings=(PrimarySbaInitSize=2097152,PrimaryTlsfInitSize=8388608,PrimaryTlsfSpanSize=2097152,PrimaryMemReservedLimit=0,PrimaryAllocSizeHuge=2097152,MediaTlsfInitSize=2097152,MediaTlsfSpanSize=2097152,MediaMemReservedLimit=0,MediaAllocSizeHuge=2097152))\r\nCommunicationSettings=(InitializeSystemComms=True,PoolSize=262144,DiscoveryBroadcastPort=24024,CommandPort=0,NetworkName=\"\")\r\nAdvancedSettings=(uNumSpatialAudioPointSources=128,bVerboseSystemOutput=False,EnableMultiCoreRendering=False,MaxNumJobWorkers=1,JobWorkerMaxExecutionTimeUSec=0,IO_MemorySize=2097152,IO_Granularity=32768,TargetAutoStreamBufferLength=380.000000,UseStreamCache=False,MaximumPinnedBytesInCache=4294967295,EnableGameSyncPreparation=False,ContinuousPlaybackLookAhead=1,MonitorQueuePoolSize=1048576,MaximumHardwareTimeoutMs=1000,DebugOutOfRangeCheckEnabled=False,DebugOutOfRangeLimit=16.000000)\r\n\r\n[/Script/WwisePackaging.WwisePackagingSettings]\r\nbPackageAsBulkData=True\r\n+AssetLibraries=/Game/WwiseAudio/WwiseMultiReferenceAssetLibrary.WwiseMultiReferenceAssetLibrary\r\nbInitialAssetLibraryCreated=True\r\n\r\n[/Script/UnrealEd.ProjectPackagingSettings]\r\nBuild=IfProjectHasCode\r\nBuildConfiguration=PPBC_Development\r\nBuildTarget=\r\nFullRebuild=False\r\nForDistribution=False\r\nIncludeDebugFiles=False\r\nBlueprintNativizationMethod=Disabled\r\nbIncludeNativizedAssetsInProjectGeneration=False\r\nbExcludeMonolithicEngineHeadersInNativizedCode=False\r\nUsePakFile=True\r\nbUseIoStore=True\r\nbUseZenStore=False\r\nbMakeBinaryConfig=False\r\nbGenerateChunks=False\r\nbGenerateNoChunks=False\r\nbChunkHardReferencesOnly=False\r\nbForceOneChunkPerFile=False\r\nMaxChunkSize=0\r\nbBuildHttpChunkInstallData=False\r\nHttpChunkInstallDataDirectory=(Path=\"\")\r\nWriteBackMetadataToAssetRegistry=Disabled\r\nbWritePluginSizeSummaryJsons=False\r\nbCompressed=True\r\nPackageCompressionFormat=Oodle\r\nbForceUseProjectCompressionFormatIgnoreHardwareOverride=False\r\nPackageAdditionalCompressionOptions=\r\nPackageCompressionMethod=Kraken\r\nPackageCompressionLevel_DebugDevelopment=4\r\nPackageCompressionLevel_TestShipping=4\r\nPackageCompressionLevel_Distribution=7\r\nPackageCompressionMinBytesSaved=1024\r\nPackageCompressionMinPercentSaved=5\r\nbPackageCompressionEnableDDC=False\r\nPackageCompressionMinSizeToConsiderDDC=0\r\nHttpChunkInstallDataVersion=\r\nIncludePrerequisites=True\r\nIncludeAppLocalPrerequisites=False\r\nbShareMaterialShaderCode=True\r\nbDeterministicShaderCodeOrder=False\r\nbSharedMaterialNativeLibraries=True\r\nApplocalPrerequisitesDirectory=(Path=\"\")\r\nIncludeCrashReporter=False\r\nInternationalizationPreset=English\r\n-CulturesToStage=en\r\n+CulturesToStage=en\r\nLocalizationTargetCatchAllChunkId=0\r\nbCookAll=False\r\nbCookMapsOnly=False\r\nbSkipEditorContent=False\r\nbSkipMovies=False\r\n-IniKeyDenylist=KeyStorePassword\r\n-IniKeyDenylist=KeyPassword\r\n-IniKeyDenylist=rsa.privateexp\r\n-IniKeyDenylist=rsa.modulus\r\n-IniKeyDenylist=rsa.publicexp\r\n-IniKeyDenylist=aes.key\r\n-IniKeyDenylist=SigningPublicExponent\r\n-IniKeyDenylist=SigningModulus\r\n-IniKeyDenylist=SigningPrivateExponent\r\n-IniKeyDenylist=EncryptionKey\r\n-IniKeyDenylist=DevCenterUsername\r\n-IniKeyDenylist=DevCenterPassword\r\n-IniKeyDenylist=IOSTeamID\r\n-IniKeyDenylist=SigningCertificate\r\n-IniKeyDenylist=MobileProvision\r\n-IniKeyDenylist=IniKeyDenylist\r\n-IniKeyDenylist=IniSectionDenylist\r\n+IniKeyDenylist=KeyStorePassword\r\n+IniKeyDenylist=KeyPassword\r\n+IniKeyDenylist=rsa.privateexp\r\n+IniKeyDenylist=rsa.modulus\r\n+IniKeyDenylist=rsa.publicexp\r\n+IniKeyDenylist=aes.key\r\n+IniKeyDenylist=SigningPublicExponent\r\n+IniKeyDenylist=SigningModulus\r\n+IniKeyDenylist=SigningPrivateExponent\r\n+IniKeyDenylist=EncryptionKey\r\n+IniKeyDenylist=DevCenterUsername\r\n+IniKeyDenylist=DevCenterPassword\r\n+IniKeyDenylist=IOSTeamID\r\n+IniKeyDenylist=SigningCertificate\r\n+IniKeyDenylist=MobileProvision\r\n+IniKeyDenylist=IniKeyDenylist\r\n+IniKeyDenylist=IniSectionDenylist\r\n-IniSectionDenylist=HordeStorageServers\r\n-IniSectionDenylist=StorageServers\r\n+IniSectionDenylist=HordeStorageServers\r\n+IniSectionDenylist=StorageServers\r\n+DirectoriesToAlwaysCook=(Path=\"/Wwise/WwiseTree\")\r\n+DirectoriesToAlwaysCook=(Path=\"/Wwise/WwiseTypes\")\r\nbRetainStagedDirectory=False\r\nCustomStageCopyHandler=\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Config/DefaultGame.ini b/Config/DefaultGame.ini
+--- a/Config/DefaultGame.ini	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ b/Config/DefaultGame.ini	(date 1749297400819)
+@@ -3,45 +3,6 @@
+ [/Script/EngineSettings.GeneralProjectSettings]
+ ProjectID=4952377B4276D31DFCE72AB6318F0E93
+ 
+-[/Script/AkAudio.AkSettings]
+-MaxSimultaneousReverbVolumes=4
+-WwiseProjectPath=(FilePath="Debug_WwiseProject/Debug_WwiseProject.wproj")
+-RootOutputPath=(Path="../Debug_WwiseProject/GeneratedSoundBanks")
+-WwiseStagingDirectory=(Path="WwiseAudio")
+-bSoundBanksTransfered=True
+-bAssetsMigrated=True
+-bProjectMigrated=True
+-DefaultOcclusionCollisionChannel=ECC_Visibility
+-DefaultFitToGeometryCollisionChannel=ECC_WorldStatic
+-AkGeometryMap=()
+-DefaultAcousticTexture=None
+-DefaultTransmissionLoss=0.000000
+-GeometrySurfacePropertiesTable=/Game/WwiseAudio/DefaultGeometrySurfacePropertiesTable.DefaultGeometrySurfacePropertiesTable
+-GlobalDecayAbsorption=0.500000
+-DefaultReverbAuxBus=None
+-EnvironmentDecayAuxBusMap=()
+-ReverbAssignmentTable=/Game/WwiseAudio/DefaultReverbAssignmentTable.DefaultReverbAssignmentTable
+-HFDampingName=
+-DecayEstimateName=
+-TimeToFirstReflectionName=
+-HFDampingRTPC=None
+-DecayEstimateRTPC=None
+-TimeToFirstReflectionRTPC=None
+-AudioInputEvent=None
+-SplitSwitchContainerMedia=False
+-SplitMediaPerFolder=False
+-UseEventBasedPackaging=False
+-UnrealCultureToWwiseCulture=(("en", "English(US)"))
+-DefaultAssetCreationPath=/Game/WwiseAudio
+-InitBank=/Game/WwiseAudio/InitBank.InitBank
+-AudioRouting=Custom
+-bWwiseSoundEngineEnabled=True
+-bWwiseAudioLinkEnabled=False
+-bAkAudioMixerEnabled=False
+-DefaultListenerScalingFactor=1.000000
+-MigratedEnableMultiCoreRendering=True
+-FixupRedirectorsDuringMigration=False
+-
+ [/Script/AkAudio.AkMacInitializationSettings]
+ CommonSettings=(SampleRate=48000,MaximumNumberOfMemoryPools=256,MaximumNumberOfPositioningPaths=255,CommandQueueSize=262144,SamplesPerFrame=512,MainOutputSettings=(AudioDeviceShareSet="",DeviceID=0,PanningRule=Speakers,ChannelConfigType=Anonymous,ChannelMask=0,NumberOfChannels=0),StreamingLookAheadRatio=1.000000,NumberOfRefillsInVoice=4,SpatialAudioSettings=(MaxSoundPropagationDepth=8,MovementThreshold=25.000000,NumberOfPrimaryRays=35,ReflectionOrder=2,MaxDiffractionPaths=8,MaxGlobalReflectionPaths=0,DiffractionOrder=4,MaxEmitterRoomAuxSends=3,DiffractionOnReflectionsOrder=2,MaxDiffractionAngleDegrees=180.000000,MaximumPathLength=100000.000000,CPULimitPercentage=0.000000,SmoothingConstantMs=0.000000,LoadBalancingSpread=1,EnableGeometricDiffractionAndTransmission=True,CalcEmitterVirtualPosition=True,TransmissionOperation=Max),MemoryArenaSettings=(PrimarySbaInitSize=2097152,PrimaryTlsfInitSize=8388608,PrimaryTlsfSpanSize=2097152,PrimaryMemReservedLimit=0,PrimaryAllocSizeHuge=2097152,MediaTlsfInitSize=2097152,MediaTlsfSpanSize=2097152,MediaMemReservedLimit=0,MediaAllocSizeHuge=2097152))
+ CommunicationSettings=(InitializeSystemComms=True,PoolSize=262144,DiscoveryBroadcastPort=24024,CommandPort=0,NetworkName="")
+@@ -146,3 +107,45 @@
+ bRetainStagedDirectory=False
+ CustomStageCopyHandler=
+ 
++
++[/Script/AkAudio.AkSettings]
++MaxSimultaneousReverbVolumes=4
++WwiseProjectPath=(FilePath="Debug_WwiseProject/Debug_WwiseProject.wproj")
++RootOutputPath=(Path="../Debug_WwiseProject/GeneratedSoundBanks")
++WwiseStagingDirectory=(Path="WwiseAudio")
++bSoundBanksTransfered=True
++bAssetsMigrated=True
++bProjectMigrated=True
++DefaultOcclusionCollisionChannel=ECC_Visibility
++DefaultFitToGeometryCollisionChannel=ECC_WorldStatic
++AkGeometryMap=()
++DefaultAcousticTexture=None
++DefaultTransmissionLoss=0.000000
++GeometrySurfacePropertiesTable=/Game/WwiseAudio/DefaultGeometrySurfacePropertiesTable.DefaultGeometrySurfacePropertiesTable
++GlobalDecayAbsorption=0.500000
++DefaultReverbAuxBus=None
++EnvironmentDecayAuxBusMap=()
++ReverbAssignmentTable=/Game/WwiseAudio/DefaultReverbAssignmentTable.DefaultReverbAssignmentTable
++HFDampingName=
++DecayEstimateName=
++TimeToFirstReflectionName=
++HFDampingRTPC=None
++DecayEstimateRTPC=None
++TimeToFirstReflectionRTPC=None
++AudioInputEvent=None
++SplitSwitchContainerMedia=False
++SplitMediaPerFolder=False
++UseEventBasedPackaging=False
++UnrealCultureToWwiseCulture=(("en", "English(US)"))
++DefaultAssetCreationPath=/Game/WwiseAudio
++InitBank=/Game/WwiseAudio/InitBank.InitBank
++AudioRouting=Custom
++bWwiseSoundEngineEnabled=True
++bWwiseAudioLinkEnabled=False
++bAkAudioMixerEnabled=False
++DefaultListenerScalingFactor=1.000000
++MigratedEnableMultiCoreRendering=True
++FixupRedirectorsDuringMigration=False
++
++WwiseWindowsInstallationPath=(Path="C:/Program Files (x86)/Audiokinetic/Wwise2024.1.5.8803")
++WwiseMacInstallationPath=(FilePath="")
+\ No newline at end of file
+Index: Plugins/Wwise/LauncherInfo.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n    \"originalSdkFolder\": \"/Applications/Audiokinetic/Wwise2024.1.5.8803/SDK\",\r\n    \"currentVersion\": {\r\n        \"nickname\": \"\",\r\n        \"build\": 3676,\r\n        \"major\": 1,\r\n        \"minor\": 5,\r\n        \"year\": 2024\r\n    },\r\n    \"installedBundleGroups\": [\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"Unreal\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealSwitch\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealSwitch2\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealStadia\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealPS4\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealPS5\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealXboxSeriesX\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealXboxOne\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealXboxOneGC\"\r\n        },\r\n        {\r\n            \"id\": \"Packages\",\r\n            \"valueId\": \"UnrealWinGC\"\r\n        },\r\n        {\r\n            \"id\": \"DeploymentPlatforms\",\r\n            \"valueId\": \"UE54\"\r\n        }\r\n    ]\r\n}
+===================================================================
+diff --git a/Plugins/Wwise/LauncherInfo.json b/Plugins/Wwise/LauncherInfo.json
+--- a/Plugins/Wwise/LauncherInfo.json	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ b/Plugins/Wwise/LauncherInfo.json	(date 1749297409075)
+@@ -1,5 +1,5 @@
+ {
+-    "originalSdkFolder": "/Applications/Audiokinetic/Wwise2024.1.5.8803/SDK",
++    "originalSdkFolder": "C:\\Program Files (x86)\\Audiokinetic\\Wwise2024.1.5.8803\\SDK",
+     "currentVersion": {
+         "nickname": "",
+         "build": 3676,
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>ProfilingSession2.prof
+===================================================================
+diff --git a/.idea/.name b/.idea/.name
+--- a/.idea/.name	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ b/.idea/.name	(date 1749297546375)
+@@ -1,1 +1,1 @@
+-ProfilingSession2.prof
+\ No newline at end of file
++Berlin2025_Sprint6.sln
+\ No newline at end of file
+Index: Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*******************************************************************************\r\nThe content of this file includes portions of the proprietary AUDIOKINETIC Wwise\r\nTechnology released in source code form as part of the game integration package.\r\nThe content of this file may not be used without valid licenses to the\r\nAUDIOKINETIC Wwise Technology.\r\nNote that the use of the game engine is subject to the Unreal(R) Engine End User\r\nLicense Agreement at https://www.unrealengine.com/en-US/eula/unreal\r\n \r\nLicense Usage\r\n \r\nLicensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use\r\nthis file in accordance with the end user license agreement provided with the\r\nsoftware or, alternatively, in accordance with the terms contained\r\nin a written agreement between you and Audiokinetic Inc.\r\nCopyright (c) 2025 Audiokinetic Inc.\r\n*******************************************************************************/\r\n\r\n#if defined(PLATFORM_TVOS) && PLATFORM_TVOS\r\n\r\n#endif\r\n
+===================================================================
+diff --git a/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h b/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h
+--- a/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ b/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h	(date 1749297397517)
+@@ -15,6 +15,10 @@
+ Copyright (c) 2025 Audiokinetic Inc.
+ *******************************************************************************/
+ 
+-#if defined(PLATFORM_TVOS) && PLATFORM_TVOS
+-
++#if PLATFORM_TVOS
++#include <AK/Plugin/AkToneSourceFactory.h>
++#include <AK/Plugin/AkRoomVerbFXFactory.h>
++#include <AK/Plugin/AkTremoloFXFactory.h>
++#include <AK/Plugin/AkSynthOneSourceFactory.h>
++#include <AK/Plugin/AkReflectFXFactory.h>
+ #endif
+Index: Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*******************************************************************************\r\nThe content of this file includes portions of the proprietary AUDIOKINETIC Wwise\r\nTechnology released in source code form as part of the game integration package.\r\nThe content of this file may not be used without valid licenses to the\r\nAUDIOKINETIC Wwise Technology.\r\nNote that the use of the game engine is subject to the Unreal(R) Engine End User\r\nLicense Agreement at https://www.unrealengine.com/en-US/eula/unreal\r\n \r\nLicense Usage\r\n \r\nLicensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use\r\nthis file in accordance with the end user license agreement provided with the\r\nsoftware or, alternatively, in accordance with the terms contained\r\nin a written agreement between you and Audiokinetic Inc.\r\nCopyright (c) 2025 Audiokinetic Inc.\r\n*******************************************************************************/\r\n\r\n#if defined(PLATFORM_IOS) && PLATFORM_IOS\r\n\r\n#endif\r\n
+===================================================================
+diff --git a/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h b/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h
+--- a/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h	(revision 7429a62a56844d3614bf3368a471eed91e10e46c)
++++ b/Plugins/WwiseSoundEngine/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h	(date 1749297397516)
+@@ -15,6 +15,10 @@
+ Copyright (c) 2025 Audiokinetic Inc.
+ *******************************************************************************/
+ 
+-#if defined(PLATFORM_IOS) && PLATFORM_IOS
+-
++#if PLATFORM_IOS
++#include <AK/Plugin/AkToneSourceFactory.h>
++#include <AK/Plugin/AkRoomVerbFXFactory.h>
++#include <AK/Plugin/AkTremoloFXFactory.h>
++#include <AK/Plugin/AkSynthOneSourceFactory.h>
++#include <AK/Plugin/AkReflectFXFactory.h>
+ #endif
