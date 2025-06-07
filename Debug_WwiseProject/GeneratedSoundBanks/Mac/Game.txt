@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	221136863	Play_Hidden_Fear			\Default Work Unit\Play_Hidden_Fear	
+	497073876	Play_Percussion_Loop__13			\Default Work Unit\Play_Percussion_Loop__13	
+	1914683058	Play_Lyric_Voices__5			\Default Work Unit\Play_Lyric_Voices__5	
+	1914683061	Play_Lyric_Voices__2			\Default Work Unit\Play_Lyric_Voices__2	
+	2959229615	Play_OuterWild			\Default Work Unit\Play_OuterWild	
+	4036784596	Play_You_Are_the_Pan			\Default Work Unit\Play_You_Are_the_Pan	
+	4213664683	Play_Casual_Arcade_Track__1__looped_			\Default Work Unit\Play_Casual_Arcade_Track__1__looped_	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	983310469	Aux			\Default Work Unit\Aux	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	102755248	Lyric_Voices__5	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\B9\{B9AE6A9F-A051-5F79-914A-696664E84648}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Lyric_Voices__5		14113064
+	123115223	You Are the Pan	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\78\{78EA0BEA-B883-5624-7A3E-924D87AA0216}.wem		\Actor-Mixer Hierarchy\Default Work Unit\You Are the Pan		42153824
+	610079999	Lyric_Voices__2	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\33\{33AFA79C-DFB4-B540-8415-53528F38F0F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Lyric_Voices__2		13407464
+	669849041	Percussion_Loop__13	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\EB\{EB743AB7-FBE1-2320-C6DB-BB1ADC8ABE57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Percussion_Loop__13		8467344
+	781943001	Casual_Arcade_Track__1__looped_	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\47\{4736D92B-DA93-9B77-8B49-0AA31B9BD5A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Casual_Arcade_Track__1__looped_		9115200
+	803144266	Hidden_Fear	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\D5\{D5368ADB-6D14-F56D-1F87-D5077F7EEF30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Hidden_Fear		18445920
+	975515527	OuterWild	Y:\Documents\GitHub\Debug\Debug_WwiseProject\.cache\A0\{A03847C5-A30F-E263-7A78-792F5CF11BEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\OuterWild		44294240
+

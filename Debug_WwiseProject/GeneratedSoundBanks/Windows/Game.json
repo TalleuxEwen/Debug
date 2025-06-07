@@ -1,0 +1,199 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "702482391",
+    "Type": "User",
+    "GUID": "{CABB55BE-DB33-4959-8AFC-A63EF856D117}",
+    "Language": "SFX",
+    "Hash": "{C93768D4-23C5-5154-E642-7DFA9C3317D4}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
+    "ShortName": "Game",
+    "Path": "Game.bnk",
+    "Media": [
+     {
+      "Id": "102755248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lyric_Voices__5.wav",
+      "CachePath": "B9/{B9AE6A9F-A051-5F79-914A-696664E84648}.wem"
+     },
+     {
+      "Id": "123115223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "You Are the Pan.wav",
+      "CachePath": "78/{78EA0BEA-B883-5624-7A3E-924D87AA0216}.wem"
+     },
+     {
+      "Id": "610079999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lyric_Voices__2.wav",
+      "CachePath": "33/{33AFA79C-DFB4-B540-8415-53528F38F0F8}.wem"
+     },
+     {
+      "Id": "669849041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion_Loop__13.wav",
+      "CachePath": "EB/{EB743AB7-FBE1-2320-C6DB-BB1ADC8ABE57}.wem"
+     },
+     {
+      "Id": "781943001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Casual_Arcade_Track__1__looped_.wav",
+      "CachePath": "47/{4736D92B-DA93-9B77-8B49-0AA31B9BD5A3}.wem"
+     },
+     {
+      "Id": "803144266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hidden_Fear.wav",
+      "CachePath": "D5/{D5368ADB-6D14-F56D-1F87-D5077F7EEF30}.wem"
+     },
+     {
+      "Id": "975515527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OuterWild.wav",
+      "CachePath": "A0/{A03847C5-A30F-E263-7A78-792F5CF11BEC}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4213664683",
+      "Name": "Play_Casual_Arcade_Track__1__looped_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Casual_Arcade_Track__1__looped_",
+      "GUID": "{6B93EDB3-F9DA-4FD9-A871-A75EFB360A5F}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "781943001"
+       }
+      ]
+     },
+     {
+      "Id": "221136863",
+      "Name": "Play_Hidden_Fear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hidden_Fear",
+      "GUID": "{05D6C45F-1E4A-4F7F-8358-F1F9193CDA42}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "803144266"
+       }
+      ]
+     },
+     {
+      "Id": "1914683061",
+      "Name": "Play_Lyric_Voices__2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lyric_Voices__2",
+      "GUID": "{7394786B-5BE8-4E41-A0A1-3BD102151F65}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "610079999"
+       }
+      ]
+     },
+     {
+      "Id": "1914683058",
+      "Name": "Play_Lyric_Voices__5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lyric_Voices__5",
+      "GUID": "{B77DE350-6C19-45C8-9286-AA1981C81322}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "102755248"
+       }
+      ]
+     },
+     {
+      "Id": "2959229615",
+      "Name": "Play_OuterWild",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_OuterWild",
+      "GUID": "{0A245B04-53C7-4E97-B148-95943B56A300}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "975515527"
+       }
+      ]
+     },
+     {
+      "Id": "497073876",
+      "Name": "Play_Percussion_Loop__13",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Percussion_Loop__13",
+      "GUID": "{24267A69-AF1E-476C-A2C1-5CC4DCD818C2}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "669849041"
+       }
+      ]
+     },
+     {
+      "Id": "4036784596",
+      "Name": "Play_You_Are_the_Pan",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_You_Are_the_Pan",
+      "GUID": "{127E1A6E-958A-4406-8F8D-CFD74EBE5B0C}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "123115223"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "983310469",
+      "Name": "Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Aux",
+      "GUID": "{8F4CB531-AC6D-4302-B975-917A444DFCB8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D1D3CFEA-FF95-3F3E-9843-95AAFC72830E}"
+ }
+}

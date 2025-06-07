@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2F27E80-AED4-4AD0-B274-EB246D232B43}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F2F27E80-AED4-4AD0-B274-EB246D232B43}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Game" ID="{CABB55BE-DB33-4959-8AFC-A63EF856D117}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Aux" ID="{8F4CB531-AC6D-4302-B975-917A444DFCB8}" WorkUnitID="{B457AC11-FC9C-402A-AED8-43DB4E7FF1F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_You_Are_the_Pan" ID="{127E1A6E-958A-4406-8F8D-CFD74EBE5B0C}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lyric_Voices__5" ID="{B77DE350-6C19-45C8-9286-AA1981C81322}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Percussion_Loop__13" ID="{24267A69-AF1E-476C-A2C1-5CC4DCD818C2}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lyric_Voices__2" ID="{7394786B-5BE8-4E41-A0A1-3BD102151F65}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_OuterWild" ID="{0A245B04-53C7-4E97-B148-95943B56A300}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hidden_Fear" ID="{05D6C45F-1E4A-4F7F-8358-F1F9193CDA42}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Casual_Arcade_Track__1__looped_" ID="{6B93EDB3-F9DA-4FD9-A871-A75EFB360A5F}" WorkUnitID="{100C1FEF-A1C9-44CC-81CC-DA8E9ED55900}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
