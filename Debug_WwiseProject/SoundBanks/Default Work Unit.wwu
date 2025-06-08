@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A0C2175-728A-49A9-8F80-126BA94F222C}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1A0C2175-728A-49A9-8F80-126BA94F222C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Game" ID="{879558F7-8E8A-42E2-B1ED-B6CDBFC0F529}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Casual_Arcade_Track__1__looped_" ID="{93A5DA10-9AC7-4013-88A7-8630470A06B9}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hidden_Fear" ID="{46E4D054-98EF-41DB-9593-3D448E32C140}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_heyPlayer" ID="{61783C4C-BFA7-4367-A480-9D1A9A4BC82A}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_You_Are_the_Pan" ID="{0B3C56FD-BD9C-436C-B4DC-CAD37B3E1304}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Percussion_Loop__13" ID="{1156710D-0540-4622-AE5D-9EEBAAFA48FB}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_OuterWild" ID="{DD69E775-EE14-48EF-A51D-47EDBB973385}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_heyStatue" ID="{119A26D2-3333-494A-9224-D2A4D626CFE4}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lyric_Voices__2" ID="{F49DE7CD-BF77-4B3B-9AE7-6B556840DADF}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lyric_Voices__5" ID="{B27F6EA3-D945-4C79-8D56-85DFE7680967}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

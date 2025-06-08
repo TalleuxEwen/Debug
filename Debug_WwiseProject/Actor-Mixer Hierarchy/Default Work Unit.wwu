@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A23B0200-2182-4F8C-9108-63440545B5D9}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A23B0200-2182-4F8C-9108-63440545B5D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Crystals" ID="{18C9E10E-B8B2-4F6D-832E-8668A1C3EA30}" ShortID="21502365">
+					<ChildrenList>
+						<Sound Name="Casual_Arcade_Track__1__looped_" ID="{0B6C8FBF-E793-4074-BD75-27960D13090E}" ShortID="829509655">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Casual_Arcade_Track__1__looped_" ID="{6EE51216-7AB8-476B-BB81-6FD7D1BB14C2}">
+									<Language>SFX</Language>
+									<AudioFile>Casual_Arcade_Track__1__looped_.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="538629718"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Casual_Arcade_Track__1__looped_" ID="{6EE51216-7AB8-476B-BB81-6FD7D1BB14C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hidden_Fear" ID="{71E19515-48D9-4E44-89B5-38FE7065E90A}" ShortID="426040485">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hidden_Fear" ID="{269C8CF4-0CE0-462C-B217-1B63805F7799}">
+									<Language>SFX</Language>
+									<AudioFile>Hidden_Fear.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1063804902"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hidden_Fear" ID="{269C8CF4-0CE0-462C-B217-1B63805F7799}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lyric_Voices__2" ID="{D98914CF-2843-40C9-9483-15A86528ECC7}" ShortID="1014452758">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lyric_Voices__2" ID="{9E225782-1BF1-4204-800C-A3E686FC1652}">
+									<Language>SFX</Language>
+									<AudioFile>Lyric_Voices__2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698579876"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lyric_Voices__2" ID="{9E225782-1BF1-4204-800C-A3E686FC1652}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lyric_Voices__5" ID="{9F74A78A-2DD0-44F9-B183-2E05E5815469}" ShortID="1033556078">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lyric_Voices__5" ID="{66039D3E-2993-4FC8-A69D-C5C781CC4E5F}">
+									<Language>SFX</Language>
+									<AudioFile>Lyric_Voices__5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="447194997"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lyric_Voices__5" ID="{66039D3E-2993-4FC8-A69D-C5C781CC4E5F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OuterWild" ID="{4BDD1245-7B75-4F85-B87A-9992D71A3068}" ShortID="201364185">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OuterWild" ID="{2AA1A236-5465-4C2F-A38B-198D6FF5354D}">
+									<Language>SFX</Language>
+									<AudioFile>OuterWild.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821934379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OuterWild" ID="{2AA1A236-5465-4C2F-A38B-198D6FF5354D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Percussion_Loop__13" ID="{76FD4CF7-97A1-43CB-A276-12B846096292}" ShortID="402599419">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CrystalsAtt" ID="{6D4354B3-5DEB-4454-B9B2-3409E127A7C9}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Percussion_Loop__13" ID="{0658D353-7EE4-4930-B191-6C0B17898058}">
+									<Language>SFX</Language>
+									<AudioFile>Percussion_Loop__13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="143119570"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Percussion_Loop__13" ID="{0658D353-7EE4-4930-B191-6C0B17898058}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="You Are the Pan" ID="{0A3F4E28-8D1B-4757-B3D0-1251BB0104C8}" ShortID="316849116">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-11"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="FlowerAtt" ID="{ED6614A2-F734-44B0-965D-CF5F234194F7}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="You Are the Pan" ID="{5166418D-6257-40B2-AF66-4C650B21C218}">
+							<Language>SFX</Language>
+							<AudioFile>You Are the Pan.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1047045043"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="You Are the Pan" ID="{5166418D-6257-40B2-AF66-4C650B21C218}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Statues" ID="{7034A4B7-5F99-4657-B8C6-3DADFBC60ADE}" ShortID="1014217174">
+					<ChildrenList>
+						<Sound Name="457973__fabrizio84__me-saying-hey" ID="{CF0393AB-BF57-4EED-AC0A-0F3E44504282}" ShortID="1005151268">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="457973__fabrizio84__me-saying-hey" ID="{BD0138C0-40BD-4BAF-81F1-E855E6A920A8}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.28744287824147"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.35271189860015"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>457973__fabrizio84__me-saying-hey.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="759113939"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="457973__fabrizio84__me-saying-hey" ID="{BD0138C0-40BD-4BAF-81F1-E855E6A920A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="348568__deleted_user_5614036__edm-hey-sample" ID="{37C3AA24-A0D5-484E-BB71-FB3236C5EC8D}" ShortID="654062818">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StatueAtt" ID="{679CE315-D42D-4475-8996-0616AC0BD597}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="348568__deleted_user_5614036__edm-hey-sample" ID="{38FDDBE1-8FE4-43B1-B8F5-954D83BE8B89}">
+									<Language>SFX</Language>
+									<AudioFile>348568__deleted_user_5614036__edm-hey-sample.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="358453882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="348568__deleted_user_5614036__edm-hey-sample" ID="{38FDDBE1-8FE4-43B1-B8F5-954D83BE8B89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

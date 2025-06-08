@@ -1,0 +1,219 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "702482391",
+    "Type": "User",
+    "GUID": "{879558F7-8E8A-42E2-B1ED-B6CDBFC0F529}",
+    "Language": "SFX",
+    "Hash": "{0B56E61C-B873-5025-1786-DDA6F1F57F00}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
+    "ShortName": "Game",
+    "Path": "Game.bnk",
+    "Media": [
+     {
+      "Id": "143119570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion_Loop__13.wav",
+      "CachePath": "EB/{EB743AB7-FBE1-2320-C6DB-BB1ADC8ABE57}.wem"
+     },
+     {
+      "Id": "358453882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "348568__deleted_user_5614036__edm-hey-sample.wav",
+      "CachePath": "AA/{AA48CA56-769A-02E4-21D3-B16C4E2F683F}.wem"
+     },
+     {
+      "Id": "447194997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lyric_Voices__5.wav",
+      "CachePath": "B9/{B9AE6A9F-A051-5F79-914A-696664E84648}.wem"
+     },
+     {
+      "Id": "538629718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Casual_Arcade_Track__1__looped_.wav",
+      "CachePath": "47/{4736D92B-DA93-9B77-8B49-0AA31B9BD5A3}.wem"
+     },
+     {
+      "Id": "698579876",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lyric_Voices__2.wav",
+      "CachePath": "33/{33AFA79C-DFB4-B540-8415-53528F38F0F8}.wem"
+     },
+     {
+      "Id": "759113939",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "457973__fabrizio84__me-saying-hey.wav",
+      "CachePath": "AF/{AF52D60A-0906-D6C9-8530-9D7E8D680B1D}.wem"
+     },
+     {
+      "Id": "821934379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OuterWild.wav",
+      "CachePath": "A0/{A03847C5-A30F-E263-7A78-792F5CF11BEC}.wem"
+     },
+     {
+      "Id": "1047045043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "You Are the Pan.wav",
+      "CachePath": "5A/{5AAE5EA3-BB95-97BD-56D0-2FDCCC7506A4}.wem"
+     },
+     {
+      "Id": "1063804902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hidden_Fear.wav",
+      "CachePath": "D5/{D5368ADB-6D14-F56D-1F87-D5077F7EEF30}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4213664683",
+      "Name": "Play_Casual_Arcade_Track__1__looped_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Casual_Arcade_Track__1__looped_",
+      "GUID": "{93A5DA10-9AC7-4013-88A7-8630470A06B9}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "538629718"
+       }
+      ]
+     },
+     {
+      "Id": "27427307",
+      "Name": "Play_heyPlayer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_heyPlayer",
+      "GUID": "{61783C4C-BFA7-4367-A480-9D1A9A4BC82A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.065269",
+      "DurationMax": "1.065269",
+      "MediaRefs": [
+       {
+        "Id": "759113939"
+       }
+      ]
+     },
+     {
+      "Id": "1118366388",
+      "Name": "Play_heyStatue",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_heyStatue",
+      "GUID": "{119A26D2-3333-494A-9224-D2A4D626CFE4}",
+      "MaxAttenuation": "3500",
+      "DurationType": "OneShot",
+      "DurationMin": "2.968957",
+      "DurationMax": "2.968957",
+      "MediaRefs": [
+       {
+        "Id": "358453882"
+       }
+      ]
+     },
+     {
+      "Id": "221136863",
+      "Name": "Play_Hidden_Fear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hidden_Fear",
+      "GUID": "{46E4D054-98EF-41DB-9593-3D448E32C140}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1063804902"
+       }
+      ]
+     },
+     {
+      "Id": "1914683061",
+      "Name": "Play_Lyric_Voices__2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lyric_Voices__2",
+      "GUID": "{F49DE7CD-BF77-4B3B-9AE7-6B556840DADF}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "698579876"
+       }
+      ]
+     },
+     {
+      "Id": "1914683058",
+      "Name": "Play_Lyric_Voices__5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lyric_Voices__5",
+      "GUID": "{B27F6EA3-D945-4C79-8D56-85DFE7680967}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "447194997"
+       }
+      ]
+     },
+     {
+      "Id": "2959229615",
+      "Name": "Play_OuterWild",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_OuterWild",
+      "GUID": "{DD69E775-EE14-48EF-A51D-47EDBB973385}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "821934379"
+       }
+      ]
+     },
+     {
+      "Id": "497073876",
+      "Name": "Play_Percussion_Loop__13",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Percussion_Loop__13",
+      "GUID": "{1156710D-0540-4622-AE5D-9EEBAAFA48FB}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "143119570"
+       }
+      ]
+     },
+     {
+      "Id": "4036784596",
+      "Name": "Play_You_Are_the_Pan",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_You_Are_the_Pan",
+      "GUID": "{0B3C56FD-BD9C-436C-B4DC-CAD37B3E1304}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "238.97977",
+      "DurationMax": "238.97977",
+      "MediaRefs": [
+       {
+        "Id": "1047045043"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5E09FB5B-DBE5-59E2-CDDC-F315943B1E95}"
+ }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Casual_Arcade_Track__1__looped_" ID="{93A5DA10-9AC7-4013-88A7-8630470A06B9}">
+					<ChildrenList>
+						<Action Name="" ID="{AE7158E6-83FE-4B2B-A1B9-C1E00103860A}" ShortID="180013095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casual_Arcade_Track__1__looped_" ID="{0B6C8FBF-E793-4074-BD75-27960D13090E}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hidden_Fear" ID="{46E4D054-98EF-41DB-9593-3D448E32C140}">
+					<ChildrenList>
+						<Action Name="" ID="{467D7DCD-4B2E-4C3B-8440-7CC1B145B2A7}" ShortID="945753914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hidden_Fear" ID="{71E19515-48D9-4E44-89B5-38FE7065E90A}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lyric_Voices__2" ID="{F49DE7CD-BF77-4B3B-9AE7-6B556840DADF}">
+					<ChildrenList>
+						<Action Name="" ID="{B5DFF08E-D192-4E15-B70C-F330D58599A3}" ShortID="764047521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lyric_Voices__2" ID="{D98914CF-2843-40C9-9483-15A86528ECC7}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lyric_Voices__5" ID="{B27F6EA3-D945-4C79-8D56-85DFE7680967}">
+					<ChildrenList>
+						<Action Name="" ID="{B5B5F430-F6E8-462F-B979-007CFD08EBD3}" ShortID="256125409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lyric_Voices__5" ID="{9F74A78A-2DD0-44F9-B183-2E05E5815469}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OuterWild" ID="{DD69E775-EE14-48EF-A51D-47EDBB973385}">
+					<ChildrenList>
+						<Action Name="" ID="{755DC1C4-4416-4FEB-94DC-3921B46719CF}" ShortID="318154057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OuterWild" ID="{4BDD1245-7B75-4F85-B87A-9992D71A3068}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Percussion_Loop__13" ID="{1156710D-0540-4622-AE5D-9EEBAAFA48FB}">
+					<ChildrenList>
+						<Action Name="" ID="{6C3A1AD1-7150-4CAB-BAEE-505F89217AD1}" ShortID="925738224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Percussion_Loop__13" ID="{76FD4CF7-97A1-43CB-A276-12B846096292}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_You_Are_the_Pan" ID="{0B3C56FD-BD9C-436C-B4DC-CAD37B3E1304}">
+					<ChildrenList>
+						<Action Name="" ID="{2EC22CA1-BC8E-45CB-8733-E6603DC2FEDD}" ShortID="873792332">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="You Are the Pan" ID="{0A3F4E28-8D1B-4757-B3D0-1251BB0104C8}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_heyStatue" ID="{119A26D2-3333-494A-9224-D2A4D626CFE4}">
+					<ChildrenList>
+						<Action Name="" ID="{E2F80ECF-0F11-411B-AEFC-99704FBC13E2}" ShortID="61767240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="348568__deleted_user_5614036__edm-hey-sample" ID="{37C3AA24-A0D5-484E-BB71-FB3236C5EC8D}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_heyPlayer" ID="{61783C4C-BFA7-4367-A480-9D1A9A4BC82A}">
+					<ChildrenList>
+						<Action Name="" ID="{40B361AA-FCE7-4005-BF83-B7211651E859}" ShortID="356785389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="457973__fabrizio84__me-saying-hey" ID="{CF0393AB-BF57-4EED-AC0A-0F3E44504282}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
