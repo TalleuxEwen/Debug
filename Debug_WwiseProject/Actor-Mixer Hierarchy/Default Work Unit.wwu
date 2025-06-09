@@ -191,7 +191,15 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-11"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C8080CD4-45D1-479E-A945-796E1FB9C150}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 					</PropertyList>
 					<ReferenceList>
@@ -221,6 +229,20 @@
 				<Folder Name="Statues" ID="{7034A4B7-5F99-4657-B8C6-3DADFBC60ADE}" ShortID="1014217174">
 					<ChildrenList>
 						<Sound Name="457973__fabrizio84__me-saying-hey" ID="{CF0393AB-BF57-4EED-AC0A-0F3E44504282}" ShortID="1005151268">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2EE5487A-13D5-4293-A8A4-4C8E2C0C78D2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-225"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
@@ -275,8 +297,94 @@
 								<ActiveSource Name="348568__deleted_user_5614036__edm-hey-sample" ID="{38FDDBE1-8FE4-43B1-B8F5-954D83BE8B89}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="531137__ryusa__choir-female-pad-pitch-up" ID="{92EB47E9-8094-4732-A015-C3DB7D08848A}" ShortID="142863794">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{583F66BA-9E1A-4B49-98E7-9BBD96EEE37E}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StatueAtt" ID="{679CE315-D42D-4475-8996-0616AC0BD597}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="531137__ryusa__choir-female-pad-pitch-up" ID="{93ECD8EC-FA33-4E2F-B1B2-3695438E648C}">
+									<Language>SFX</Language>
+									<AudioFile>531137__ryusa__choir-female-pad-pitch-up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="673287945"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{FB94D9A9-177C-4052-9D22-E09862B0FB5B}" ShortID="334131308">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="531137__ryusa__choir-female-pad-pitch-up" ID="{93ECD8EC-FA33-4E2F-B1B2-3695438E648C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="423120__ogsoundfx__earthquake-1-big" ID="{DBBE301B-F2B2-47F3-A721-9BFACCAE74BA}" ShortID="538056785">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-3"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="EarthquakeAtt" ID="{73E821E1-779D-435D-A2B6-F3B70FB0A34A}" WorkUnitID="{49CBC4AB-ED26-4753-8824-431152211A1F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFF11FA3-F095-4D26-9930-B993FA09F7E7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB993D74-6B04-4924-BD2D-6D2FBC5D47A7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="423120__ogsoundfx__earthquake-1-big" ID="{807FBA0A-626E-4861-88C8-B94F9B0BBEF0}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="6.6622998544396"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="9.67540029112083"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>423120__ogsoundfx__earthquake-1-big.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="686685540"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="423120__ogsoundfx__earthquake-1-big" ID="{807FBA0A-626E-4861-88C8-B94F9B0BBEF0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

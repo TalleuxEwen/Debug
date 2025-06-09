@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	27427307	Play_heyPlayer			\Default Work Unit\Play_heyPlayer	
+	218646807	Play_423120__ogsoundfx__earthquake_1_big			\Default Work Unit\Play_423120__ogsoundfx__earthquake_1_big	
 	221136863	Play_Hidden_Fear			\Default Work Unit\Play_Hidden_Fear	
 	497073876	Play_Percussion_Loop__13			\Default Work Unit\Play_Percussion_Loop__13	
+	662799313	Play_531137__ryusa__choir_female_pad_pitch_up			\Default Work Unit\Play_531137__ryusa__choir_female_pad_pitch_up	
 	1118366388	Play_heyStatue			\Default Work Unit\Play_heyStatue	
 	1914683058	Play_Lyric_Voices__5			\Default Work Unit\Play_Lyric_Voices__5	
 	1914683061	Play_Lyric_Voices__2			\Default Work Unit\Play_Lyric_Voices__2	
@@ -9,14 +11,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	4036784596	Play_You_Are_the_Pan			\Default Work Unit\Play_You_Are_the_Pan	
 	4213664683	Play_Casual_Arcade_Track__1__looped_			\Default Work Unit\Play_Casual_Arcade_Track__1__looped_	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2849147824	Medium	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	143119570	Percussion_Loop__13	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\EB\{EB743AB7-FBE1-2320-C6DB-BB1ADC8ABE57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Percussion_Loop__13		8467344
 	358453882	348568__deleted_user_5614036__edm-hey-sample	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\AA\{AA48CA56-769A-02E4-21D3-B16C4E2F683F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statues\348568__deleted_user_5614036__edm-hey-sample		523820
 	447194997	Lyric_Voices__5	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\B9\{B9AE6A9F-A051-5F79-914A-696664E84648}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Lyric_Voices__5		14113064
 	538629718	Casual_Arcade_Track__1__looped_	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\47\{4736D92B-DA93-9B77-8B49-0AA31B9BD5A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Casual_Arcade_Track__1__looped_		9115200
+	673287945	531137__ryusa__choir-female-pad-pitch-up	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\A3\{A385AA16-E51C-95BF-5007-427DEAD9BEA1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statues\531137__ryusa__choir-female-pad-pitch-up		352056
+	686685540	423120__ogsoundfx__earthquake-1-big	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\54\{54357767-63A9-C696-D9EC-DCF57DBE0EAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\423120__ogsoundfx__earthquake-1-big		1857788
 	698579876	Lyric_Voices__2	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\33\{33AFA79C-DFB4-B540-8415-53528F38F0F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Lyric_Voices__2		13407464
-	759113939	457973__fabrizio84__me-saying-hey	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\AF\{AF52D60A-0906-D6C9-8530-9D7E8D680B1D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statues\457973__fabrizio84__me-saying-hey		204628
+	759113939	457973__fabrizio84__me-saying-hey	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\10\{10216F65-3C6D-EA5F-5793-C7CD87F7D234}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Statues\457973__fabrizio84__me-saying-hey		204628
 	821934379	OuterWild	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\A0\{A03847C5-A30F-E263-7A78-792F5CF11BEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\OuterWild		44294240
-	1047045043	You Are the Pan	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\5A\{5AAE5EA3-BB95-97BD-56D0-2FDCCC7506A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\You Are the Pan		42156144
+	1047045043	You Are the Pan	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\8E\{8EC90319-A438-8F1C-86E8-ECB2D7C6E0B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\You Are the Pan		42156144
 	1063804902	Hidden_Fear	C:\Users\Talleux\Documents\Debug\Debug_WwiseProject\.cache\D5\{D5368ADB-6D14-F56D-1F87-D5077F7EEF30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crystals\Hidden_Fear		18445920
 

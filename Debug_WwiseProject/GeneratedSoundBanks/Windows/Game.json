@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{879558F7-8E8A-42E2-B1ED-B6CDBFC0F529}",
     "Language": "SFX",
-    "Hash": "{0B56E61C-B873-5025-1786-DDA6F1F57F00}",
+    "Hash": "{C81208AB-64D8-5983-1F3C-DF6A7F92432C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -48,6 +48,22 @@
       "CachePath": "47/{4736D92B-DA93-9B77-8B49-0AA31B9BD5A3}.wem"
      },
      {
+      "Id": "673287945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "531137__ryusa__choir-female-pad-pitch-up.wav",
+      "CachePath": "A3/{A385AA16-E51C-95BF-5007-427DEAD9BEA1}.wem"
+     },
+     {
+      "Id": "686685540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "423120__ogsoundfx__earthquake-1-big.wav",
+      "CachePath": "54/{54357767-63A9-C696-D9EC-DCF57DBE0EAF}.wem"
+     },
+     {
       "Id": "698579876",
       "Language": "SFX",
       "Streaming": "false",
@@ -61,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "457973__fabrizio84__me-saying-hey.wav",
-      "CachePath": "AF/{AF52D60A-0906-D6C9-8530-9D7E8D680B1D}.wem"
+      "CachePath": "10/{10216F65-3C6D-EA5F-5793-C7CD87F7D234}.wem"
      },
      {
       "Id": "821934379",
@@ -77,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "You Are the Pan.wav",
-      "CachePath": "5A/{5AAE5EA3-BB95-97BD-56D0-2FDCCC7506A4}.wem"
+      "CachePath": "8E/{8EC90319-A438-8F1C-86E8-ECB2D7C6E0B5}.wem"
      },
      {
       "Id": "1063804902",
@@ -88,7 +104,56 @@
       "CachePath": "D5/{D5368ADB-6D14-F56D-1F87-D5077F7EEF30}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2849147824",
+       "Name": "Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Medium",
+       "GUID": "{AEB3F175-958B-45F2-A4C2-3FBD4F456568}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
+     {
+      "Id": "218646807",
+      "Name": "Play_423120__ogsoundfx__earthquake_1_big",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_423120__ogsoundfx__earthquake_1_big",
+      "GUID": "{51A0887B-98A5-4FEB-A6F1-BC598225415A}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "9.675401",
+      "DurationMax": "9.675401",
+      "MediaRefs": [
+       {
+        "Id": "686685540"
+       }
+      ]
+     },
+     {
+      "Id": "662799313",
+      "Name": "Play_531137__ryusa__choir_female_pad_pitch_up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_531137__ryusa__choir_female_pad_pitch_up",
+      "GUID": "{EF1D8086-3D66-4862-9162-870841574EF6}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9952381",
+      "DurationMax": "1.9952381",
+      "MediaRefs": [
+       {
+        "Id": "673287945"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2849147824"
+        }
+       ]
+      }
+     },
      {
       "Id": "4213664683",
       "Name": "Play_Casual_Arcade_Track__1__looped_",
@@ -109,7 +174,7 @@
       "GUID": "{61783C4C-BFA7-4367-A480-9D1A9A4BC82A}",
       "DurationType": "OneShot",
       "DurationMin": "1.065269",
-      "DurationMax": "1.065269",
+      "DurationMax": "1.2131162",
       "MediaRefs": [
        {
         "Id": "759113939"
@@ -121,7 +186,7 @@
       "Name": "Play_heyStatue",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_heyStatue",
       "GUID": "{119A26D2-3333-494A-9224-D2A4D626CFE4}",
-      "MaxAttenuation": "3500",
+      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "2.968957",
       "DurationMax": "2.968957",
@@ -202,9 +267,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_You_Are_the_Pan",
       "GUID": "{0B3C56FD-BD9C-436C-B4DC-CAD37B3E1304}",
       "MaxAttenuation": "2000",
-      "DurationType": "OneShot",
-      "DurationMin": "238.97977",
-      "DurationMax": "238.97977",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "1047045043"
@@ -214,6 +277,6 @@
     ]
    }
   ],
-  "FileHash": "{EABA0738-22FD-2C45-7C5A-5E72E0ED5364}"
+  "FileHash": "{F69A7A74-4C9C-FD8C-A6E8-1E719C1A1DBE}"
  }
 }

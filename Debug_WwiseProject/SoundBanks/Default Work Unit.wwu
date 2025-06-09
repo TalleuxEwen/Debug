@@ -10,10 +10,12 @@
 						<ObjectRef Name="Play_heyPlayer" ID="{61783C4C-BFA7-4367-A480-9D1A9A4BC82A}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_You_Are_the_Pan" ID="{0B3C56FD-BD9C-436C-B4DC-CAD37B3E1304}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Percussion_Loop__13" ID="{1156710D-0540-4622-AE5D-9EEBAAFA48FB}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_531137__ryusa__choir_female_pad_pitch_up" ID="{EF1D8086-3D66-4862-9162-870841574EF6}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_OuterWild" ID="{DD69E775-EE14-48EF-A51D-47EDBB973385}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_heyStatue" ID="{119A26D2-3333-494A-9224-D2A4D626CFE4}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Lyric_Voices__2" ID="{F49DE7CD-BF77-4B3B-9AE7-6B556840DADF}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Lyric_Voices__5" ID="{B27F6EA3-D945-4C79-8D56-85DFE7680967}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_423120__ogsoundfx__earthquake_1_big" ID="{51A0887B-98A5-4FEB-A6F1-BC598225415A}" WorkUnitID="{48D14608-7F4F-4173-9AB4-24EF0917EC70}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

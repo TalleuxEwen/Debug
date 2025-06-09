@@ -102,6 +102,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_423120__ogsoundfx__earthquake_1_big" ID="{51A0887B-98A5-4FEB-A6F1-BC598225415A}">
+					<ChildrenList>
+						<Action Name="" ID="{A743109B-1AA8-40DC-8D25-293EF0EEF5ED}" ShortID="77714261">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="423120__ogsoundfx__earthquake-1-big" ID="{DBBE301B-F2B2-47F3-A721-9BFACCAE74BA}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_531137__ryusa__choir_female_pad_pitch_up" ID="{EF1D8086-3D66-4862-9162-870841574EF6}">
+					<ChildrenList>
+						<Action Name="" ID="{78E8E65C-57A5-4D77-B450-DE2BF57AF71B}" ShortID="171082387">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="531137__ryusa__choir-female-pad-pitch-up" ID="{92EB47E9-8094-4732-A015-C3DB7D08848A}" WorkUnitID="{A23B0200-2182-4F8C-9108-63440545B5D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
